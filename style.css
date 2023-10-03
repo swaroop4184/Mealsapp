@@ -1,0 +1,148 @@
+/* Set margin and padding to 0 for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/* Style for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for logo image */
+#logo {
+    height: 40px;
+}
+
+/* Style for header links */
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+/* Style for header links on hover */
+header a:hover {
+    color: #ff6347;
+}
+
+/* Style for container */
+.container {
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for input field */
+input {
+    flex: 1;
+    border: solid;
+    outline: solid;
+    background: #f8f8f8;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style for button */
+button {
+    border: lightblue;
+    outline: rgb(143, 128, 240);
+    padding: 12px 30px;
+    background: #4756ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #00aeff;
+}
+
+/* Style for meal containers */
+.meal {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for meal images */
+.meal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Style for meal headings */
+.meal h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+    color: #ff6347;
+}
+
+.meal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #fff;
+    border: none;
+    color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal button:hover {
+    background-color: #f8f8f8;
+}
+
+.description {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: justify;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Additional styling for improved readability and aesthetics */
